@@ -111,12 +111,12 @@ This project aims to expand the company's market reach, attracting potential cus
 > 
 ---
 
-## ERD (Entity-Relationship Diagram)
+## ERD Entity-Relationship Diagram
 > <img src="/img/der.png"/>
 
 ---
 
-## Sustainable Development Goals (SDGs)
+## Sustainable Development Goals
 The SDGs are a global agenda adopted by the UN, consisting of 17 goals and 169 targets for 2030, aiming for sustainable development in economic, social, and environmental dimensions.
 -  **Decent Work and Economic Growth:**
 Promote inclusive economic growth, productive employment, and decent work.
