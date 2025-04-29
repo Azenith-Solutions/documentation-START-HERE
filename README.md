@@ -143,4 +143,4 @@ Build resilient infrastructure, promote sustainable industrialization and innova
 
 ---
 
-Setup the entire project [here](https://github.com/Azenith-Solutions/documentation-START-HERE/blob/main/pre-requires.md)
+Setup the entire project [here](https://github.com/Azenith-Solutions/documentation-START-HERE/blob/main/setup=manual.md)
