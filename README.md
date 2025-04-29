@@ -1,5 +1,5 @@
-<h1 align="center"> Hardware Tech</h1>
-<h2 align="center">Inventory Management + Product Cataloging</h2>
+<h1 align="center">Azenith Solutions</h1>
+<h2 align="center">Hardware Tech | Inventory Management + Product Cataloging</h2>
 <div align="center">
   <img src="/img/top-banner.png"/>
 </div>
@@ -28,7 +28,7 @@
 
 ## Project Context
 The market for electronic components and repair for industrial equipment in Brazil is expanding, driven by the growing demand for maintenance and updating of industrial equipment.
-> ![Market Context](PATH_TO_IMAGE_1)
+> <img src="/img/chart.png"/>
 
 According to an article by Mordor Intelligence, the industrial electrical components market is projected to grow at a compound annual growth rate (CAGR) of over 4% in the next five years. The Brazilian facility maintenance sector is growing at an annual rate of 10%, estimated at R$ 10 billion [DOCUMENTAOOFICIALDOSISTEMA.pdf].
 
