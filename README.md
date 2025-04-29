@@ -132,7 +132,7 @@ Build resilient infrastructure, promote sustainable industrialization and innova
 ## References
 - https://www.mordorintelligence.com/pt/industry-reports/industrial-electrical-components-market
 - https://apc.com.br/manutencao/o-setor-manutencao-reparos-no-brasil
-- 
+
 ## Authors - Azenith Team
 - [Diogo Polastrine](https://github.com/Polastrine)
 - [Henrique Serikov](https://github.com/HenriqueSericov)
