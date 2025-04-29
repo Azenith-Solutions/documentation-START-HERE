@@ -239,3 +239,61 @@ If you encounter issues during installation or verification, follow the steps be
   - [MySQL](https://dev.mysql.com/doc/)  
 
 If the problem persists, consider reinstalling the tool or consulting with a development community for advanced troubleshooting.
+
+**Diagrama de Fluxo:**
+
+```mermaid
+graph TD
+    A(Start Here: <br/> documentation-START-HERE);
+    B(Pré-requisitos Instalados);
+    C{{1. shared-libraries}};
+    D{{2. auth-service}};
+    E{{3. user-service}};
+    F{{4. product-service}};
+    G{{5. order-service}};
+    H{{6. api-gateway}};
+    I{{7. frontend-app}};
+    J{{8. deployment-scripts}};
+
+    subgraph "Ordem Recomendada de Setup"
+      direction LR
+      C --> D;
+      C --> F;
+      D --> E;
+      E --> G;
+      F --> G;
+      D --> H;
+      E --> H;
+      F --> H;
+      G --> H;
+      H --> I;
+    end
+
+    A --> B;
+    B --> C;
+    B --> D; 
+    B --> J; 
+
+    %% --- Links para os Repositórios (Opcional, mas útil) ---
+    %% Adicione links clicáveis aos nós. Ajuste os nomes e URLs!
+    click C "https://github.com/Azenith-Solutions/shared-libraries" "Ir para Repositório" _blank
+    click D "https://github.com/Azenith-Solutions/auth-service" "Ir para Repositório" _blank
+    click E "https://github.com/Azenith-Solutions/user-service" "Ir para Repositório" _blank
+    click F "https://github.com/Azenith-Solutions/product-service" "Ir para Repositório" _blank
+    click G "https://github.com/Azenith-Solutions/order-service" "Ir para Repositório" _blank
+    click H "https://github.com/Azenith-Solutions/api-gateway" "Ir para Repositório" _blank
+    click I "https://github.com/Azenith-Solutions/frontend-app" "Ir para Repositório" _blank
+    click J "https://github.com/Azenith-Solutions/deployment-scripts" "Ir para Repositório" _blank
+
+    %% --- Estilização Opcional ---
+   style C fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+   style D fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+   style E fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+   style F fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+   style G fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+   style H fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+   style I fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+   style J fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
+
+   style A fill:#EEEEEE,stroke:#333333,color:#000000,stroke-width:1px
+   style B fill:#EEEEEE,stroke:#333333,color:#000000,stroke-width:1px
