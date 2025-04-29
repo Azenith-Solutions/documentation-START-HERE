@@ -1,9 +1,15 @@
-<h1 align="center">Azenith Solutions</h1>
-<h2 align="center">Hardware Tech | Inventory Management + Product Cataloging</h2>
 <div align="center">
-  <img src="/img/top-banner.png"/>
+  
+  # Azenith Solutions
+  
+  ## Hardware Tech | Inventory Management + Product Cataloging
+  
+  ![Top Banner](/img/top-banner.png)
+  
+  **Extension Project SPTech School**  
+  São Paulo - SP / 2025
+
 </div>
-<p align="center">Extension Project SPTech School | São Paulo - SP / 2025</p>
 
 ---
 
