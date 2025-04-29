@@ -140,3 +140,7 @@ Build resilient infrastructure, promote sustainable industrialization and innova
 - [João Victor](https://github.com/Joao-Victor-Barroso-Melo)
 - [Kauan França](https://github.com/kauansfr)
 - [Mariana Dias](https://github.com/marianalopesz)
+
+---
+
+Setup the entire project [here](https://github.com/Azenith-Solutions/documentation-START-HERE/blob/main/setup-project.md)
