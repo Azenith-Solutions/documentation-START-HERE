@@ -2,7 +2,7 @@
 
 Welcome to the setup guide for Hardware Tech Project. This document provides step-by-step instructions to configure the necessary environment and get the project operational on your system.
 
-This manual focuses solely on the setup process. For comprehensive documentation about the project's features, architecture, API, and usage patterns, please refer to our main documentation here: **[Link to Main Documentation Repository/Page]**
+This manual focuses solely on the setup process. For comprehensive documentation about the project's features, architecture, API, and usage patterns, please refer to our main documentation here: [Context](https://github.com/Azenith-Solutions/documentation-START-HERE)
 
 ## Table of Contents
 
