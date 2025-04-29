@@ -240,7 +240,9 @@ If you encounter issues during installation or verification, follow the steps be
 
 If the problem persists, consider reinstalling the tool or consulting with a development community for advanced troubleshooting.
 
-**Diagrama de Fluxo:**
+**Flow Diagram:**
+
+Follow the diagram following the suggested flow to complete the application setup
 
 ```mermaid
 graph TD
