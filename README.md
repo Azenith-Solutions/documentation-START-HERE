@@ -13,7 +13,7 @@
 
 ---
 
-## Contents
+## Table of Contents
 1. [Project Context](#project-context)
 2. [Objective](#objective)
 3. [Justification](#justification)
