@@ -132,11 +132,11 @@ Build resilient infrastructure, promote sustainable industrialization and innova
 ## References
 - https://www.mordorintelligence.com/pt/industry-reports/industrial-electrical-components-market
 - https://apc.com.br/manutencao/o-setor-manutencao-reparos-no-brasil
-- 
+
 **Authors:**
-Diogo Polastrine Duarte Silva (RA:01241114)
-Jean Charles Albuquerque (RA: 01241059)
-João Victor Barroso Melo (RA: 01241125)
-Kauan Silva França (RA: 01241021)
-Mariana Dias Lopes (RA: 01241096)
-Henrique Serikov (RA: 01241210)
+- [Diogo Polastrine](https://github.com/Polastrine)
+- [Henrique Serikov](https://github.com/HenriqueSericov)
+- [Jean Charles](https://github.com/jeancharlesexe)
+- [João Victor](https://github.com/Joao-Victor-Barroso-Melo)
+- [Kauan França](https://github.com/kauansfr)
+- [Mariana Dias](https://github.com/marianalopesz)
