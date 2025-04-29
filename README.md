@@ -1,15 +1,11 @@
 
   
 
-# Hardware Tech - Inventory Management + Product Cataloging
-
-  
-
-  
-  
-  
-
-**Extension Project SPTech School | São Paulo - SP / 2025**
+<h1 align="center"> Hardware Tech - Inventory Management + Product Cataloging</h1>
+<div align="center">
+  <img src="/img/top-banner.png"/>
+</div>
+<p align="center">Extension Project SPTech School | São Paulo - SP / 2025</p>
 
   
 
