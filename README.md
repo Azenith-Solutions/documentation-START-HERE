@@ -1,7 +1,8 @@
 
   
 
-<h1 align="center"> Hardware Tech - Inventory Management + Product Cataloging</h1>
+<h1 align="center"> Hardware Tech</h1>
+<h2 align="center">Inventory Management + Product Cataloging</h2>
 <div align="center">
   <img src="/img/top-banner.png"/>
 </div>
