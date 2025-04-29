@@ -82,37 +82,37 @@ This project aims to expand the company's market reach, attracting potential cus
 ---
 
 ## Lean UX
-> <img src="/img/leanux.png"/>
+![Lean UX](img/leanux.png)
 
 ---
 
 ## Proto-personas  
-> <img src="/img/proto1.png"/>
-> <img src="/img/proto2.png"/>
+![Proto-persona 1](img/proto1.png)
+![Proto-persona 2](img/proto2.png)
 ---  
 
 ## BPMN
-> <img src="/img/bpmn.png"/>
+![BPMN](img/bpmn.png)
   
 ---
 
 ## Solution Diagram  
-> <img src="/img/diagram.png"/>
+![Solution Diagram](img/diagram.png)
 
 ---  
 
 ## Architecture Spreadsheet  
-> <img src="/img/architeture.png"/>
+![Architecture Spreadsheet](img/architeture.png)
 
 ---
 
 ## C4 Model  
-> <img src="/img/c4model.png"/>
-> 
+![C4 Model](img/c4model.png)
+
 ---
 
 ## ERD Entity-Relationship Diagram
-> <img src="/img/der.png"/>
+![ERD](img/der.png)
 
 ---
 
