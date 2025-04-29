@@ -76,37 +76,37 @@ This project aims to expand the company's market reach, attracting potential cus
 ---
 
 ## Lean UX
-> ![Lean UX](PATH_TO_IMAGE_2)
+> <img src="/img/leanux.png"/>
 
 ---
 
 ## Proto-personas  
-> ![Proto-persona](PATH_TO_IMAGE_3)
-
+> <img src="/img/proto1.png"/>
+> <img src="/img/proto2.png"/>
 ---  
 
 ## BPMN
-> ![BPMN](PATH_TO_IMAGE_4)
+> <img src="/img/bpmn.png"/>
   
 ---
 
 ## Solution Diagram  
-> ![Solution Diagram](PATH_TO_IMAGE_5)
+> <img src="/img/diagram.png"/>
 
 ---  
 
 ## Architecture Spreadsheet  
-> ![Architecture Spreadsheet](PATH_TO_IMAGE_6)
+> <img src="/img/architeture.png"/>
 
 ---
 
 ## C4 Model  
-> ![C4 Model](PATH_TO_IMAGE_7)
+> <img src="/img/c4model.png"/>
 > 
 ---
 
 ## ERD (Entity-Relationship Diagram)
-> ![ERD](PATH_TO_IMAGE_8)
+> <img src="/img/der.png"/>
 
 ---
 
@@ -117,6 +117,11 @@ Promote inclusive economic growth, productive employment, and decent work.
 This project contributes to business efficiency and expansion.
 -  **Industry, Innovation and Infrastructure:**
 Build resilient infrastructure, promote sustainable industrialization and innovation, using open-source technologies.
+
+<div align="center">
+  <img height="200px" width="200px" src="/img/ods1.png"/>
+  <img height="200px" width="200px" src="/img/ods2.png"/>
+</div>
 
 ## References
 - https://www.mordorintelligence.com/pt/industry-reports/industrial-electrical-components-market
