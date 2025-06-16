@@ -155,7 +155,7 @@ This guide outlines the prerequisites for setting up various tools on Windows an
 
 ---
 
-## Verification and Configuration
+## Verification
 
 After installing the required tools, verify their installations by running the following commands in the terminal (Linux) or Command Prompt (Windows):
 
@@ -243,7 +243,7 @@ If the problem persists, consider reinstalling the tool or consulting with a dev
 
 ---
 
-## Development Enviroment Config
+## Development Enviroment Configuration
 
 ### 1. Database
 - Open MySQL Workbench.
@@ -253,7 +253,7 @@ If the problem persists, consider reinstalling the tool or consulting with a dev
 ### 2. BACKEND
 - Clone the [backend-api-REST](https://github.com/Azenith-Solutions/backend-api-rest) repository. 
 - Create a .env.development file in the same directory as .env.production.
-- Use the provided [.env.example](link) as a reference to configure database credentials, JWT secret, and Brevo API key in .env.development.
+- Use the provided [.env.example](https://github.com/Azenith-Solutions/documentation-START-HERE/blob/main/.env.example) as a reference to configure database credentials, JWT secret, and Brevo API key in .env.development.
 - Run the backend server.
 - **Note:** Verify in MySQL Workbench whether the tables have been successfully created — JPA should generate them automatically from the model definitions.
 
