@@ -241,7 +241,54 @@ If you encounter issues during installation or verification, follow the steps be
 
 If the problem persists, consider reinstalling the tool or consulting with a development community for advanced troubleshooting.
 
-**Flow Diagram:**
+---
+
+## Development Enviroment Config
+
+### 1. Database
+- Open MySQL Workbench.
+- Set up a local connection on port 3306.
+- Create a database named "_hardwaretechdb_".
+
+### 2. BACKEND
+- Clone the [backend-api-REST](https://github.com/Azenith-Solutions/backend-api-rest) repository. 
+- Create a .env.development file in the same directory as .env.production.
+- Use the provided [.env.example](link) as a reference to configure database credentials, JWT secret, and Brevo API key in .env.development.
+- Run the backend server.
+- **Note:** Verify in MySQL Workbench whether the tables have been successfully created — JPA should generate them automatically from the model definitions.
+
+### 3. ETL Process
+- Clone the [excelDB_loader](https://github.com/Azenith-Solutions/extract-transform-load-script) repository.
+- Make sure Python 3 is installed on your machine.
+- Also ensure that PIP is up to date.
+- **Windows:**
+  - Switch to the _windows_ branch.
+  - Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+  - Run the ETL process:
+```bash
+python main.py
+```
+- **Linux:**
+  - Switch to the _main_ branch.
+- **Note:** Check in MySQL if the data have been inserted correctly.
+
+### 4. FRONTEND
+- Install the dependencies:
+```bash
+npm i
+```
+- Run the frontend using Vite command:
+```bash
+npm run dev
+```
+- **Note:** If an error occurs, delete package-lock.json and the node_modules folder, then reinstall the dependencies
+
+---
+
+## **Flow Diagram:**
 
 Follow the diagram following the suggested flow to complete the application setup
 
