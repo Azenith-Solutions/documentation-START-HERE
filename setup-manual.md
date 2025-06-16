@@ -2,7 +2,7 @@
 
 Welcome to the setup guide for Hardware Tech Project. This document provides step-by-step instructions to configure the necessary environment and get the project operational on your system.
 
-This manual focuses solely on the setup process. For comprehensive documentation about the project's features, architecture, API, and usage patterns, please refer to our main documentation here: [Context](https://github.com/Azenith-Solutions/documentation-START-HERE)
+This manual focuses solely on the setup process. For comprehensive documentation about the project's features, architecture, API, and usage patterns, please refer to our [main](https://github.com/Azenith-Solutions/documentation-START-HERE) [documentation](https://github.com/Azenith-Solutions/documentation-START-HERE).
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This manual focuses solely on the setup process. For comprehensive documentation
 *   [Running the Project](#running-the-project)
 *   [Verification](#verification)
 *   [Troubleshooting](#troubleshooting)
-*   [Next Steps](#next-steps)
+*   [Development Enviroment Configuration](#development-environment-configuration)
 
 ---
 
@@ -261,6 +261,8 @@ If the problem persists, consider reinstalling the tool or consulting with a dev
 - Clone the [excelDB_loader](https://github.com/Azenith-Solutions/extract-transform-load-script) repository.
 - Make sure Python 3 is installed on your machine.
 - Also ensure that PIP is up to date.
+- Create a .env file in the root directory.
+- Use the provided [.env.example](https://github.com/Azenith-Solutions/documentation-START-HERE/blob/main/.env.example) as a reference to configure database credentials and the environment in .env file.
 - **Windows:**
   - Switch to the _windows_ branch.
   - Install the dependencies:
@@ -288,63 +290,4 @@ npm run dev
 
 ---
 
-## **Flow Diagram:**
-
-Follow the diagram following the suggested flow to complete the application setup
-
-```mermaid
-graph TD
-    A(Start Here: <br/> documentation-START-HERE);
-    B(Pré-requisitos Instalados);
-    C{{1. shared-libraries}};
-    D{{2. auth-service}};
-    E{{3. user-service}};
-    F{{4. product-service}};
-    G{{5. order-service}};
-    H{{6. api-gateway}};
-    I{{7. frontend-app}};
-    J{{8. deployment-scripts}};
-
-    subgraph "Ordem Recomendada de Setup"
-      direction LR
-      C --> D;
-      C --> F;
-      D --> E;
-      E --> G;
-      F --> G;
-      D --> H;
-      E --> H;
-      F --> H;
-      G --> H;
-      H --> I;
-    end
-
-    A --> B;
-    B --> C;
-    B --> D;
-    B --> J;
-
-    %% --- Links para os Repositórios (Opcional, mas útil) ---
-    %% Adicione links clicáveis aos nós. Ajuste os nomes e URLs!
-    click C "https://github.com/Azenith-Solutions/shared-libraries" "Ir para Repositório" _blank
-    click D "https://github.com/Azenith-Solutions/auth-service" "Ir para Repositório" _blank
-    click E "https://github.com/Azenith-Solutions/user-service" "Ir para Repositório" _blank
-    click F "https://github.com/Azenith-Solutions/product-service" "Ir para Repositório" _blank
-    click G "https://github.com/Azenith-Solutions/order-service" "Ir para Repositório" _blank
-    click H "https://github.com/Azenith-Solutions/api-gateway" "Ir para Repositório" _blank
-    click I "https://github.com/Azenith-Solutions/frontend-app" "Ir para Repositório" _blank
-    click J "https://github.com/Azenith-Solutions/deployment-scripts" "Ir para Repositório" _blank
-
-    %% --- Estilização Opcional ---
-   style C fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-   style D fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-   style E fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-   style F fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-   style G fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-   style H fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-   style I fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-   style J fill:#601318,stroke:#000000,color:#FFFFFF,stroke-width:2px
-
-   style A fill:#EEEEEE,stroke:#333333,color:#000000,stroke-width:1px
-   style B fill:#EEEEEE,stroke:#333333,color:#000000,stroke-width:1px
-```
+For more details, please refer to our [main](https://github.com/Azenith-Solutions/documentation-START-HERE) [documentation](https://github.com/Azenith-Solutions/documentation-START-HERE).
